@@ -139,4 +139,7 @@
 
     <!-- Default Packages -->
     <string name="wallpaper_picker_package" translatable="false">com.android.wallpaper</string>
+
+    <!-- Whether or not to add a "people" notifications section -->
+    <bool name="config_usePeopleFiltering">true</bool>
 </resources>
