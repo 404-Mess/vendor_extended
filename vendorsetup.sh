@@ -1,2 +1,1 @@
-export SDCLANG_CONFIG=$(pwd)/vendor/extended/sdclang/sdclang.json
-export SDCLANG_LTO_DEFS="vendor/extended/sdclang/sdllvm-lto-defs.mk"
+export SDCLANG_PATH="vendor/qcom/sdclang/8.0/linux-x86_64/"
