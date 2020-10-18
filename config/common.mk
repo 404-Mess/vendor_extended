@@ -82,7 +82,6 @@ PRODUCT_PACKAGES := \
     Email \
     Gallery2 \
     LatinIME \
-    Music \
     netutils-wrapper-1.0 \
     Phone \
     Provision \
@@ -93,11 +92,9 @@ PRODUCT_PACKAGES := \
     Updater \
     CalendarProvider \
     SyncProvider \
-    SoundRecorder \
     IM \
     VoiceDialer \
     SnapdragonGallery \
-    SnapdragonMusic \
     VideoEditor \
     SnapdragonLauncher
 

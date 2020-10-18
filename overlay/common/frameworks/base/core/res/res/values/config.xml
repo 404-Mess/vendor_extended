@@ -136,4 +136,7 @@
          Example: "com.android.wellbeing"
      -->
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
+
+    <!-- Default Packages -->
+    <string name="wallpaper_picker_package" translatable="false">com.android.wallpaper</string>
 </resources>
