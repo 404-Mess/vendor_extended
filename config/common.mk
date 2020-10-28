@@ -32,7 +32,6 @@ endif
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/extended/overlay/common
 
-
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=log
@@ -117,6 +116,14 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+
+# Default and google apps privapp permissions
+PRODUCT_COPY_FILES += \
+    vendor/extended/prebuilt/google/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml
+
+# Battery Saver
+PRODUCT_PACKAGES += \
+    Flipendo
 
 #Name Spaces
 PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
